@@ -10,19 +10,48 @@ Licenc: GNU GPL
 
 <!DOCTYPE html>
 <html lang="hu">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sablon</title>
+    <title>Ships</title>
     <link rel="stylesheet" href="bootstrap.css">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <div class="container">
-        <h1>Sablon</h1>
+
+    <div class="container-fluid">
+        <div class="flex-container">
+            <h1>Ships</h1>
+            <div class="quote">
+                <p>Az ember végtelenül ingadozó. Éppúgy elvesztheti irányát, mint a hajó. Horgonya a lelkiismeret. S mily rettenetes. A lelkiismeret is elalhat</p>
+                <p>- Victor Hugo -</p>
+            </div>
+            
+        </div>
+        <table class="table table-primary table-hover">
+
+            <thead>
+                <tr>
+                    <th>Név</th>
+                    <th>Méret(cm)</th>
+                    <th>Ár</th>
+                    <th>Személyek száma</th>
+                    <th>Utánfutó</th>
+                </tr>
+            </thead>
+
+            <tbody id="tbody"></tbody>
+        </table>
+
+        <div class="footer">
+            Gyüre Árpád, 2023-03-27, Szoft I-1-E
+        </div>
 
     </div>
     <script src="app.js"></script>
 </body>
+
 </html>

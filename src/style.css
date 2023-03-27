@@ -1,5 +1,5 @@
 /*
-* File: app.js
+* File: style.css
 * Author: Gyüre Árpád
 * Copyright: 2023, Gyüre Árpád
 * Group: Szoft I-1-E
@@ -7,3 +7,65 @@
 * Github: https://github.com/rp2022k/ships
 * Licenc: GNU GPL
 */
+
+@import "node_modules/bootstrap/scss/bootstrap";
+
+.container-fluid {
+    padding-top: 120px;
+    background: url(water.jpg);
+    height: 100vh;
+    background-size: cover;
+    opacity: .85;
+}
+
+.flex-container {
+    display: flex;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+.table {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    font-size: 5rem;
+    margin-right: 40%;
+    color: rgb(2, 2, 39);
+}
+
+.quote {
+    font-weight: 500;
+    text-align: justify;
+    flex-wrap: wrap;
+    color: rgb(1, 1, 20);
+    margin-top: 20px;
+}
+
+.quote p:nth-child(2) {
+    float: right;
+}
+
+.footer {
+    display: inline;
+    background-color: rgb(50, 250, 250);
+    padding: 2px;
+    font-weight: bolder;
+    margin-left: 126px;
+    width: fit-content;
+    border: solid grey 1px;
+    border-radius: 3px;
+}
+
+.table-primary thead tr th {
+    background: rgb(10, 10, 250);
+    color:aliceblue;
+}
+
+.table {
+    --bs-table-hover-bg: rgb(20, 180, 250);
+}
