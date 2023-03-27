@@ -1,16 +1,18 @@
 {
-  "name": "nodejs_sablon",
+  "name": "ships",
   "version": "1.0.0",
-  "description": "",
+  "description": "Dolgozat5",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npx lite-server"
+    "start": "npx lite-server",
+    "api": "hai-server --watch database.json --port 8000"
   },
   "keywords": [],
-  "author": "",
+  "author": "RP",
   "license": "ISC",
   "devDependencies": {
+    "hai-server": "^0.0.4",
     "lite-server": "^2.6.1"
   },
   "dependencies": {
